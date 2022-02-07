@@ -1,0 +1,65 @@
+.scores{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    border: 1px solid lightgray;
+    border-radius: 33px;
+    /* box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px 0px;
+    &-block{
+        border-left: 1px solid lightgray;
+        border-right: 1px solid lightgray;
+    }
+    &-total{
+        display: grid;
+        grid-template-columns: 3fr 1fr 3fr;
+    }
+    &-status{
+        font-weight: 400;
+        font-size: 22px;
+    }
+    &-count{
+        text-align: end;
+        &--start{
+            text-align: initial;
+        }        
+    }
+    &-h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
+
+.team{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    text-align: center;
+    &-name{
+        font-weight: 600;
+        font-size: 22px;
+    }
+    &-photo{
+        width: 60%;
+        max-width: 50px;
+        min-width: 20px;
+        margin: 0 auto;
+        & img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+}
+.team-second{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.list-scores{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    & li{
+        margin-bottom: 25px;
+    }
+}
