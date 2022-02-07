@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/football-react-hooks/static/css/main.740a616d.css",
+    "main.js": "/football-react-hooks/static/js/main.1ae25cfd.js",
+    "static/media/uefa-intro.mp4": "/football-react-hooks/static/media/uefa-intro.a54cb3f147466f60e9dc.mp4",
+    "static/media/man_unit.png": "/football-react-hooks/static/media/man_unit.436fef6b65fdd5d08256.png",
+    "static/media/logo_02.png": "/football-react-hooks/static/media/logo_02.042a748c1c1d6c32ea03.png",
+    "static/media/logo_01.png": "/football-react-hooks/static/media/logo_01.cd112e0379947dff70b6.png",
+    "static/media/real-madrid.png": "/football-react-hooks/static/media/real-madrid.5a0af386cc6775b5c93a.png",
+    "static/media/loader04.gif": "/football-react-hooks/static/media/loader04.e7c6f64bf4e0355de563.gif",
+    "static/media/search.svg": "/football-react-hooks/static/media/search.b25f3987853b45580133d4e3bcdf74ea.svg",
+    "index.html": "/football-react-hooks/index.html",
+    "main.740a616d.css.map": "/football-react-hooks/static/css/main.740a616d.css.map",
+    "main.1ae25cfd.js.map": "/football-react-hooks/static/js/main.1ae25cfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.740a616d.css",
+    "static/js/main.1ae25cfd.js"
+  ]
+}
