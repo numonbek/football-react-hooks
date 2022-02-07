@@ -20,7 +20,7 @@ const Layout = () => {
         <nav className="navbar">
           <ul className={classnames(styles.list)}>
             <li className={styles.list__li}>
-              <NavLink to={`/football-react-hooks`} className={setActive}>
+              <NavLink to={`/football-react-hooks/`} className={setActive}>
                 <h1>Home</h1>
               </NavLink>
             </li>

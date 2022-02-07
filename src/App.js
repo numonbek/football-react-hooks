@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <BackgroundVideo />
       <Routes>
-        <Route path="/football-react-hooks" element={<Layout />}>
+        <Route path="/football-react-hooks/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/football-react-hooks/league" element={<Leagues />} />
           <Route path="/football-react-hooks/commands" element={<Commands />} />
