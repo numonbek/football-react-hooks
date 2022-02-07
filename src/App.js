@@ -20,10 +20,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/football-react-hooks/league" element={<Leagues />} />
           <Route path="/football-react-hooks/commands" element={<Commands />} />
-          <Route
-            path="/football-react-hooks/football-react-hooks/calendarligue"
-            element={<CalendarLigue />}
-          />
+          <Route path="/football-react-hooks/calendarligue" element={<CalendarLigue />} />
           <Route path="/football-react-hooks/calendarcommand" element={<CalendarCommand />} />
         </Route>
       </Routes>

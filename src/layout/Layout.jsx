@@ -35,9 +35,7 @@ const Layout = () => {
               </NavLink>
             </li>
             <li className={styles.list__li}>
-              <NavLink
-                to={`/football-react-hooks/football-react-hooks/calendarligue`}
-                className={setActive}>
+              <NavLink to={`/football-react-hooks/calendarligue`} className={setActive}>
                 <h1>Leagues Date</h1>
               </NavLink>
             </li>
